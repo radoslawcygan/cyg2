@@ -16,7 +16,7 @@ namespace RCConsoleApp1
             Console.WriteLine("Test 2");
             Console.ReadKey();
 
-            Console.ReadKey();
+            Console.ReadKey(); 
         }
     }
 }
