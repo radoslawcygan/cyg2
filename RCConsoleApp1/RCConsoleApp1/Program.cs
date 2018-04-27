@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace RCConsoleApp1
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Console.WriteLine("Test 1");
             Console.ReadKey();
@@ -16,7 +16,7 @@ namespace RCConsoleApp1
             Console.WriteLine("Test 2");
             Console.ReadKey();
 
-            Console.ReadKey(); 
+            Console.ReadKey();
         }
     }
 }
